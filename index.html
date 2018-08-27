@@ -1,0 +1,39 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Local Weather</title>
+  <meta name="description" content="Local Weather App">
+<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<h1 class="text-center m-4 p-4 display-2">Local Weather</h1>
+
+<div>
+
+  <div id="weatherIcon" class="text-center"></div>
+
+  <h2 id="city" class="text-center h1 display-4"></h2>
+
+  <section id="pWeather" class="text-center">
+    <span class="h1">It's actually </span>
+    <span id="temp" class="h1"></span>
+    <span id="switchPart" class="h1">°C and there's </span>
+    <span id="weather" class="h1"></span>
+    <span class="h1"> outside.</span></section>
+
+  <div class="text-center switch">
+    <input type="button" value="Change to Fahrenheit" id="switchTemp" class="btn btn-primary" />
+  </div>
+
+</div>
+
+<body>
+  <script src="main.js"></script>
+</body>
+</html>
